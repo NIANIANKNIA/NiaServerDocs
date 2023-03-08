@@ -29,7 +29,6 @@ jobs:
         with:
           node-version: 16
           cache: npm
-          cache
       - run: npm install -D vuepress@next
       - name: Build
         run: pnpm docs:build
